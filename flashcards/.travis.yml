@@ -1,6 +1,4 @@
 language: java
 
-branches:
-  only:
-  - gh-pages
-  - /.*/
+script:
+   - ./gradle build
